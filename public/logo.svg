@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- 圆角方块背景 -->
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#bg)"/>
+  <!-- 图片图标（山+太阳） -->
+  <rect x="24" y="30" width="56" height="44" rx="6" fill="white" opacity="0.95"/>
+  <circle cx="38" cy="44" r="6" fill="#60A5FA"/>
+  <polygon points="24,68 44,50 56,60 68,46 80,68" fill="#93C5FD"/>
+  <!-- 压缩箭头 -->
+  <g transform="translate(72, 62)">
+    <rect x="0" y="0" width="36" height="36" rx="8" fill="white" opacity="0.95"/>
+    <!-- 向下压缩箭头 -->
+    <path d="M18 6 L18 24" stroke="#1D4ED8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M11 18 L18 26 L25 18" stroke="#1D4ED8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- 底部横线 -->
+    <line x1="8" y1="30" x2="28" y2="30" stroke="#1D4ED8" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>
