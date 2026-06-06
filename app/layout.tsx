@@ -23,6 +23,11 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  verification: {
+    other: {
+      'baidu-site-verification': 'codeva-fsVfMkumjC',
+    },
+  },
   icons: {
     icon: '/logo.svg',
   },
@@ -35,9 +40,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh-CN">
-      <head>
-        <meta name="baidu-site-verification" content="codeva-fsVfMkumjC" />
-      </head>
       <body className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-1">
